@@ -1,0 +1,23 @@
+public class OOPSBannerApp {
+
+    public static void main(String[] args) {
+
+        // Define and initialize String array inline
+        String[] lines = {
+
+            String.join("  ", "  ***  ", "  ***  ", " ****** ", " ****** "),
+            String.join("  ", " **  ** ", " **  ** "," **  ** ", " **     "),
+            String.join("  ", " **  ** ", " **  ** "," **  ** ", " **     "),
+            String.join("  ", " **  ** ", " **  ** "," ****** ", "   ***  "),
+            String.join("  ", " **  ** ", " **  ** "," **     ", "     ** "),
+            String.join("  ", " **  ** ", " **  **  ","**     ", "     ** "),
+            String.join("  ", "  ***  ", "   ***  ", " **     ", " ****** ")
+
+        };
+
+        // Enhanced for loop
+        for (String line : lines) {
+            System.out.println(line);
+        }
+    }
+}
